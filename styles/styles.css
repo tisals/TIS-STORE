@@ -1,0 +1,16 @@
+:root {
+    --main-pink:#FFCCCB;
+    --second-pink: #BA6B6C;
+
+}
+.bg-pink{
+    background-color: var(--main-pink);
+}
+.center-form{  
+    width:40%;
+    margin: 0 auto;
+}
+.logotipo{
+    height: 25%;
+    width:50px;
+}
