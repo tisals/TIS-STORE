@@ -1,16 +1,65 @@
 :root {
     --main-pink:#FFCCCB;
     --second-pink: #BA6B6C;
+    --main-brand: #009188;
+    --second-brand:#B35524;
 
+}
+.btn-outline-light:hover {
+    color: var(--main-brand) !important;
+    border-color: var(--main-brand);
+    background-color: #fff;
+}
+.btn-outline-second-brand{
+    color: var(--second-brand);
+    border-color: var(--second-brand);
+}
+.btn-main-brand{
+    background-color: var(--second-brand);
+    color: #fff;
+    padding: 15px;
+}
+.btn-main-brand:hover{
+    background-color: var(--main-brand);
+    color: #fff;
+    padding: 15px;
+}
+.text-main-brand{
+    color: var(--main-brand);
+}
+.text-second-brand{
+    color: var(--second-brand);
+}
+.bg-main-brand{
+    background-color: var(--main-brand);
+}
+.bg-second-brand{
+    background-color: var(--second-brand));
 }
 .bg-pink{
     background-color: var(--main-pink);
 }
 .center-form{  
-    width:40%;
+    width:350px;
     margin: 0 auto;
 }
-.logotipo{
-    height: 25%;
-    width:50px;
+.contacto{
+    padding: 2rem;
+    font-size: 1.5em;
+}
+.link-light{
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+}
+.link-light:hover{
+    color:rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+/*estilos para smartphone*/
+@media screen and (max-width:576px){
+    .center-form{
+        width: 80%;
+    
+    }
 }
