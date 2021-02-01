@@ -15,7 +15,7 @@ Ejecutando las Pruebas:
 Construido con:
 Visual studio code
 Boostrap 4.6
-Con HTML5 y CSS3
+HTML5 y CSS3
 
 
 Autores 
