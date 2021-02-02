@@ -5,24 +5,37 @@
     --second-brand:#B35524;
 
 }
+
 .btn-outline-light:hover {
     color: var(--main-brand) !important;
     border-color: var(--main-brand);
     background-color: #fff;
+   
 }
 .btn-outline-second-brand{
     color: var(--second-brand);
     border-color: var(--second-brand);
+    padding: 10px;
+}
+.btn-outline-second-brand:hover{
+    border-color: var(--main-brand);
+    color: var(--main-brand);
 }
 .btn-main-brand{
-    background-color: var(--second-brand);
-    color: #fff;
-    padding: 15px;
+background-color: var(--second-brand) !important;
+    color: #fff !important;
+    padding: 10px !important;
 }
 .btn-main-brand:hover{
     background-color: var(--main-brand);
     color: #fff;
-    padding: 15px;
+    padding: 10px;
+}
+.btn-cart{
+    margin-top:2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
 }
 .text-main-brand{
     color: var(--main-brand);
@@ -34,7 +47,7 @@
     background-color: var(--main-brand);
 }
 .bg-second-brand{
-    background-color: var(--second-brand));
+    background-color: var(--second-brand);
 }
 .bg-pink{
     background-color: var(--main-pink);
@@ -54,6 +67,11 @@
 .link-light:hover{
     color:rgba(255,255,255,1);
     text-decoration: none;
+}
+.description-product{
+    text-align: justify;
+    height: 4.5rem;
+    overflow: hidden;
 }
 
 /*estilos para smartphone*/
